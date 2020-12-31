@@ -1,0 +1,150 @@
+
+body{margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+hr{
+border-style: dotted none none none;
+width: 100px;
+border-width: 7px;
+color: #11999E;
+}
+h1{
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive, sans-serif;
+font-size: 5.625rem; /* static: px, dynamic: % and em and 100% is 16px and 1 em is 16 px.
+90 px is 562.5 % and 5.625 em.    rem does not depend on parent font size.*/
+color: #66BFBF;
+line-height: 0.5;
+}
+h2{
+font-family: 'Merriweather', sans-serif;
+font-size: 2.5rem; /* 40 px */
+color: #66BFBF;
+
+}
+.intro{
+font-weight: normal;
+}
+.intro2{
+  line-height: 2;
+
+}
+h3{
+font-family: 'Merriweather', sans-serif;
+color: #11999E;
+}
+
+.top-container{
+background-color: powderblue;
+position:relative;
+padding-top: 100px;
+}
+.main-profile-pic{
+  width:200px;
+  height:200px;
+}
+.dev{
+  text-decoration: underline;
+}
+
+.top-cloud{
+position: relative;
+left:250px;
+}
+
+.bottom-cloud{
+position:absolute;
+}
+
+
+.middle-container{
+
+}
+.skill-img1{
+  width:22%;
+  height:22%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img2{
+  width:22%;
+  height:22%;
+  float: right;
+margin-right: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.bottom-container{
+background-color: powderblue;
+margin: 50px 0 0 0;
+padding-top: 50px;
+height:200px;
+}
+
+.btn{
+  color: #11999E;
+}
+.BUTTON {
+   background: #22CAD1;
+   background-image: -webkit-linear-gradient(top, #22CAD1, #11999E);
+   background-image: -moz-linear-gradient(top, #22CAD1, #11999E);
+   background-image: -ms-linear-gradient(top, #22CAD1, #11999E);
+   background-image: -o-linear-gradient(top, #22CAD1, #11999E);
+   background-image: -webkit-gradient(to bottom, #22CAD1, #11999E);
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   height: 50px;
+   line-height: 50px;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 200px;
+   font-size: 18px;
+   font-weight: 100;
+   padding: 5px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #FFFFFF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON:hover {
+   border: solid #FFFFFF 1px;
+   background: #22CAD1;
+   background-image: -webkit-linear-gradient(top, #22CAD1, #11999E);
+   background-image: -moz-linear-gradient(top, #22CAD1, #11999E);
+   background-image: -ms-linear-gradient(top, #22CAD1, #11999E);
+   background-image: -o-linear-gradient(top, #22CAD1, #11999E);
+   background-image: -webkit-gradient(to bottom, #22CAD1, #11999E);
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   text-decoration: none;
+}
+.footer-link{
+line-height: 2;
+  color: #11999E;
+
+}
+
+/*commmon inline elements: span , images , anchor "a"
+span or display: inline;  words on same line and blocks. cannot change width
+p or diplay:block;     change width and words not on same line.
+
+if need both properties: need
+display: inline-block; just like images are.
+
+diplay:none;
+
+visibility:hidden;
+
+*/
